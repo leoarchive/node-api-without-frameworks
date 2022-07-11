@@ -4,5 +4,6 @@ stdenv.mkDerivation {
   name = "env";
   buildInputs = [
     nodePackages.pnpm
+    postman
   ];
 }

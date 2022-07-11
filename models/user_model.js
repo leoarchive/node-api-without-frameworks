@@ -1,5 +1,6 @@
 export class User {
-  id;
-  name;
-  old;
+  constructor(name, old) {
+    this.name = name;
+    this.old = old;
+  }
 }
